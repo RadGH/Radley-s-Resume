@@ -1,0 +1,435 @@
+/*
+ * Radley's Resume
+ * Version 1.0
+ * Licensed under GPLv3 (https://www.gnu.org/licenses/gpl-3.0.html)
+ */
+
+@import "inc/global.pcss";
+@import "inc/fix.pcss";
+
+/* Top-level styles */
+html {
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+
+	font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 22px;
+	color: #000;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+h3, h4, h5, h6 {
+	font-size: 16px;
+	line-height: 1.2;
+}
+
+.resume {
+	max-width: 8.5in;
+	margin: 0 auto;
+}
+
+.content {
+	margin-bottom: 1em;
+}
+
+.primary {
+	padding: 0.125in 0.25in;
+}
+
+.secondary {
+	padding: 0.125in 0.25in;
+}
+
+.primary-section {
+	margin-bottom: 3em;
+}
+
+.secondary-section {
+	margin-bottom: 2em;
+}
+
+.primary-section:last-child,
+.secondary-section:last-child {
+	margin-bottom: 0;
+}
+
+/** Primary column **/
+.section-title {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+
+	padding-bottom: 0.375em;
+	margin-bottom: 1em;
+}
+
+.section-title:before,
+.section-title:after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 33%;
+	height: 0.125em;
+	background: #101010;
+}
+
+.section-title:before {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	left: 0.375em;
+	width: 0.125em;
+	height: 0.125em;
+	background: #ffffff;
+
+	box-shadow:
+		0.3125em 0 0 #fff,
+		0.6250em 0 0 #fff;
+}
+
+h3.section-title {
+	color: #101010;
+}
+
+
+/* Employment items */
+.employ-item {
+	margin: 0 0 1em;
+	page-break-inside: avoid;
+	overflow: hidden;
+}
+
+.employ-header {
+	margin-bottom: 0.25em;
+}
+
+.employ-header .date {
+	float: right;
+	font-size: 14px;
+	color: #a0a0a0;
+}
+
+.employ-header h4 {
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0.125em 0 0.75em;
+}
+
+.employ-content {
+	font-size: 14px;
+}
+
+
+.employ-content ul {
+	padding-left: 2em;
+	list-style: disc;
+}
+
+.employ-content ul li {
+	display: list-item;
+	list-style: disc;
+}
+
+/* Employment list numbering */
+.employ-item {
+	padding-left: 50px;
+	position: relative;
+	counter-increment: plugin;
+}
+
+.employ-item:before {
+	content: counter(plugin);
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background: #101010;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	line-height: 27px;
+}
+
+/* Testimonials */
+.testimonial-item {
+	margin-bottom: 1em;
+	page-break-inside: avoid;
+}
+
+.testimonial-item:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.testimonial-image {
+	float: left;
+	width: 125px;
+	max-width: 25%;
+	margin: 0 1em 0.5em 0;
+	border-radius: 100%;
+	overflow: hidden;
+}
+
+.testimonial-item:last-child,
+.testimonial-item:last-child .testimonial-image {
+	margin-bottom: 0;
+}
+
+.testimonial-content {
+	font-size: 14px;
+	margin-bottom: 0.75em;
+	overflow: hidden;
+}
+
+.testimonial-item h3 {
+	font-weight: 400;
+	font-size: 14px;
+	margin: 1em 0 0 2em;
+}
+
+/* Sidebar */
+.contact-methods .prefix {
+	font-size: 12px;
+	line-height: 1;
+	text-transform: uppercase;
+	display: block;
+}
+
+.contact-methods li {
+	margin-bottom: 0.75em;
+}
+
+ul.skill-list .duration {
+	float: right;
+}
+
+/* Footer */
+.footer {
+	font-size: 14px;
+	text-align: center;
+	padding: 0.125in;
+}
+
+/* Responsive Design */
+@media print {
+	/* print mode */
+	.header {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.header .primary {
+		float: none;
+		width: auto;
+		flex-basis: 68%;
+	}
+
+	.header .secondary {
+		float: none;
+		width: auto;
+		flex-basis: 32%;
+	}
+
+	.body:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.body .secondary {
+		float: right;
+		width: 32%;
+		margin-left: 0.25in;
+	}
+
+	.secondary {
+		padding: 0.125in;
+	}
+
+    /* testimonials for print */
+	.testimonial-image {
+		display: none;
+	}
+
+	.testimonial-item {
+		position: relative;
+		margin-bottom: 2em;
+	}
+
+	.testimonial-item:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and ( min-width: 551px ) {
+	/* Desktops */
+	.header {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.header .primary {
+		float: none;
+		width: auto;
+		flex-basis: 68%;
+	}
+
+	.header .secondary {
+		float: none;
+		width: auto;
+		flex-basis: 32%;
+	}
+
+	.body:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.body .secondary {
+		float: right;
+		width: 32%;
+		margin-left: 0.25in;
+	}
+
+	.secondary {
+		padding: 0.125in;
+	}
+}
+
+@media screen and ( max-width: 550px ) {
+	/* Mobile */
+	.body {
+		display: flex;
+		flex-flow: column wrap;
+	}
+
+	.body .primary {
+		order: 2;
+	}
+
+	.body .secondary {
+		order: 1;
+	}
+}
+
+/* A splash of color (Non-print) */
+@media screen {
+	body {
+		background: #000;
+	}
+
+	a {
+		color: #209fdb;
+	}
+
+	.primary {
+		background: #fff;
+	}
+
+	.header .primary {
+		background: #ff6600;
+		color: #fff;
+	}
+
+	.header .secondary {
+		background: #873b08;
+	}
+
+	.body .primary,
+	.body .secondary {
+		padding-top: 0.25in;
+	}
+
+	.secondary {
+		background: #101010;
+		color: #fafafa;
+	}
+
+    .secondary a {
+	    color: #fafafa;
+	    text-decoration: none;
+    }
+
+	h3.section-title {
+		color: #ff6600;
+	}
+
+	.section-title:after {
+		content: '';
+		display: block;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 33%;
+		height: 0.125em;
+	}
+
+	h3.section-title:after {
+		background: #ff6600;
+	}
+
+	h4.section-title:before {
+		background: #101010;
+
+		box-shadow:
+			0.3125em 0 0 #101010,
+			0.6250em 0 0 #101010;
+	}
+
+	h4.section-title:after {
+		background: #ffffff;
+	}
+
+	.employ-header h3 {
+		color: #444444;
+	}
+
+	.employ-header h4 {
+		color: #444444;
+	}
+
+	.contact-methods .prefix,
+	ul.skill-list .duration {
+		color: #cccccc;
+	}
+
+	.footer {
+		background: #101010;
+		color: #fff;
+	}
+}
+
+/* Colors only on desktop */
+@media screen and ( min-width: 8.5in ) {
+	.header .primary {
+		padding: 0.375in 0 0.375in 0.5in;
+	}
+}
