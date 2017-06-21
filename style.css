@@ -312,6 +312,7 @@ h3.section-title {
 	content: '';
 	display: block;
 	clear: both;
+	height: 1px;
 }
 
 .testimonial-image {
