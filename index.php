@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<div class="resume">
+<div class="site">
 	
 	<div class="header">
 		
