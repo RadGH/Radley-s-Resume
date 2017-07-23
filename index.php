@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Radley Sustaire's Resume</title>
 	
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css?r=1">
 	
 	<!-- Typekit: FF Tisa Sans -->
 	<script src="https://use.typekit.net/zjx4aff.js"></script>
@@ -120,7 +120,22 @@
 						
 						<div class="employ-item">
 							<div class="employ-header">
-								<div class="date">2017 &mdash; Current</div>
+								<div class="date">July 2017 &mdash; Current</div>
+								<h3>Zingmap, LLC</h3>
+								<h4>Owner</h4>
+							</div>
+							
+							<div class="employ-content">
+								<ul>
+									<li>Web development, hosting, and related services.</li>
+									<li>Developing websites with custom themes, custom plugins, analytics, SEO, and so on.</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="employ-item">
+							<div class="employ-header">
+								<div class="date">April 2017 &mdash; Current</div>
 								<h3>WordPress Developer</h3>
 								<h4>Self-Employed</h4>
 							</div>
@@ -128,8 +143,7 @@
 							<div class="employ-content">
 								<ul>
 									<li>Sourcing clients, discussing needs, writing estimates and proposals.</li>
-									<li>Developing websites with custom themes, custom plugins, analytics, SEO, etc.</li>
-									<li>Providing web hosting with CDN, SSL, and Varnish Caching included.</li>
+									<li>Developing websites including custom WordPress themes and plugins.<li>
 								</ul>
 							</div>
 						</div>
