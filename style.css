@@ -368,6 +368,10 @@ ul.skill-list .duration {
 /* Responsive Design */
 
 @media print {
+	.no-print {
+		display: none;
+	}
+
 	/* print mode */
 	.header {
 		display: -webkit-box;
