@@ -117,51 +117,51 @@ h3.section-title {
 
 
 /* Employment items */
-.employ-item {
+.sq-list-item {
 	margin: 0 0 1em;
 	page-break-inside: avoid;
 	overflow: hidden;
 }
 
-.employ-header {
+.sq-list-header {
 	margin-bottom: 0.25em;
 }
 
-.employ-header .date {
+.sq-list-header .date {
 	float: right;
 	font-size: 14px;
 	color: #a0a0a0;
 }
 
-.employ-header h4 {
+.sq-list-header h4 {
 	font-weight: 400;
 	font-size: 14px;
 	margin: 0.125em 0 0.75em;
 }
 
-.employ-content {
+.sq-list-content {
 	font-size: 14px;
 }
 
 
-.employ-content ul {
+.sq-list-content ul {
 	padding-left: 2em;
 	list-style: disc;
 }
 
-.employ-content ul li {
+.sq-list-content ul li {
 	display: list-item;
 	list-style: disc;
 }
 
 /* Employment list numbering */
-.employ-item {
+.sq-list-item {
 	padding-left: 50px;
 	position: relative;
 	counter-increment: plugin;
 }
 
-.employ-item:before {
+.sq-list-item:before {
 	content: counter(plugin);
 	position: absolute;
 	top: 3px;
@@ -213,6 +213,46 @@ h3.section-title {
 	font-weight: 400;
 	font-size: 14px;
 	margin: 1em 0 0 2em;
+}
+
+/* Extended website list */
+.ext-website-list {
+	font-size: 14px;
+}
+
+.ext-website-list li {
+	display: list-item;
+	margin-left: 20px;
+}
+
+@media ( min-width: 640px ) {
+	.ext-website-list:after {
+		content: '';
+		display: block;
+		clear: both;
+		height: 1px;
+	}
+
+	.ext-website-list li {
+		width: 45%;
+		width: calc(50% - 20px);
+		float: left;
+	}
+}
+
+@media ( min-width: 980px ) {
+	.ext-website-list:after {
+		content: '';
+		display: block;
+		clear: both;
+		height: 1px;
+	}
+
+	.ext-website-list li {
+		width: 28%;
+		width: calc(33.33% - 20px);
+		float: left;
+	}
 }
 
 /* Sidebar */
@@ -409,11 +449,11 @@ ul.skill-list .duration {
 		background: #ffffff;
 	}
 
-	.employ-header h3 {
+	.sq-list-header h3 {
 		color: #444444;
 	}
 
-	.employ-header h4 {
+	.sq-list-header h4 {
 		color: #444444;
 	}
 
