@@ -91,8 +91,8 @@
 				<div class="content">
 					<ul class="skill-list">
 						<li>Cycling <span class="no-print">(<a href="https://ridewithgps.com/users/776739/activities" target="_blank">View Routes</a>)</span></li>
+						<li>Camping and Hiking</li>
 						<li>Enjoying craft beer</li>
-						<li>Playing tabletop RPGs</li>
 					</ul>
 				</div>
 			
