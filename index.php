@@ -321,7 +321,7 @@
 			</div>
 			
 			<div class="open-source primary-section">
-				<h3 class="section-title">Open Source</h3>
+				<h3 class="section-title">Open-source Plugins</h3>
 				
 				<div class="content">
 					
