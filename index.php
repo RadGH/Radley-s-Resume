@@ -543,7 +543,6 @@
 						<li>The Growler Underground</li>
 						<li>Women Cantors' Network</li>
 						<li>Zack Poelwijk</li>
-						<li>ZingMap</li>
 					</ul>
 					
 				</div>
