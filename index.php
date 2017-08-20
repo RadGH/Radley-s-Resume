@@ -107,7 +107,7 @@
 				
 				<div class="content">
 					<p>I have 11+ years of web development experience. I was the lead developer for a digital marketing agency
-					   for 5 years. I continue to specialize in WordPress development as a freelance developer.</p>
+					   for 5 years. I continue to specialize in WordPress development and own my own web development business, <a href="https://zingmap.com/" target="_blank">ZingMap</a>.</p>
 				</div>
 			</div>
 			
