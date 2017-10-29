@@ -10,6 +10,16 @@
 	<!-- Typekit: FF Tisa Sans -->
 	<script src="https://use.typekit.net/zjx4aff.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2575959-16"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-2575959-16');
+	</script>
 </head>
 <body>
 
