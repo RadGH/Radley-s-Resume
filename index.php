@@ -1,4 +1,10 @@
-<!doctype html>
+<?php
+function return_base64_url( $image ) {
+	$mime = mime_content_type($image);
+	return 'data: '.(function_exists('mime_content_type') ? mime_content_type($image) : $mime).';base64,'.base64_encode(file_get_contents($image));
+	
+}
+?><!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,22 +14,17 @@
 	<?php if ( isset($_REQUEST['rad']) ) { ?>
 	<link rel="stylesheet" href="style.css">
 	<?php }else{ ?>
-	<link rel="stylesheet" href="style.min.css">
+<style type="text/css">
+<?php include('style.min.css'); ?>
+</style>
 	<?php } ?>
 	
-	<!-- Typekit: FF Tisa Sans -->
-	<script src="https://use.typekit.net/zjx4aff.js"></script>
-	<script>try{Typekit.load({ async: true });}catch(e){}</script>
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2575959-16"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-2575959-16');
-	</script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ff6600">
 </head>
 <body>
 
@@ -274,7 +275,7 @@
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="testimonials/erik-contzius.jpg" alt="Erik Contzius"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/erik-contzius.jpg'); ?>" alt="Erik Contzius"></div>
 							
 							<div class="testimonial-content">
 								<p><span class="quote quote-open">&ldquo;</span>Radley embodies the best of a partner in development. He really knows his way around databases, WordPress, and has a good design sense to boot. Radley intuits solutions to problems, both anticipated and unexpected. He is patient and more than willing to debug problems that arise. His communication skills are excellent. I will hire Radley again most assuredly!<span class="quote quote-close">&rdquo;</span></p>
@@ -286,7 +287,7 @@
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="testimonials/jamie-stephens.jpg" alt="Jamie Stephens"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/jamie-stephens.jpg'); ?>" alt="Jamie Stephens"></div>
 							
 							<div class="testimonial-content">
 								<p><span class="quote quote-open">&ldquo;</span>Radley took my ideas and ran with them -- the end result is a solution that does more than I originally planned and I couldn't be more thrilled! He was prompt in replying to my messages and I was provided with detailed updates along the way. If you're looking for a developer, Radley really knows his stuff. Stop scrolling and send him a message now, you won't regret it. Thank you Radley!<span class="quote quote-close">&rdquo;</span></p>
@@ -298,7 +299,7 @@
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="testimonials/jeff-h.jpg" alt="Jeff H."></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/jeff-h.jpg'); ?>" alt="Jeff H."></div>
 							
 							<div class="testimonial-content">
 								<p><span class="quote quote-open">&ldquo;</span>Radley is an absolute pleasure to work with. He's professional, organized, and efficient. The thing I looked most about working with him is his communication. He explains things thoroughly and succinctly. He's an all-around outstanding contractor.<span class="quote quote-close">&rdquo;</span></p>
@@ -310,7 +311,7 @@
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="testimonials/joey-curtin.jpg" alt="Joey Curtin"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/joey-curtin.jpg'); ?>" alt="Joey Curtin"></div>
 							
 							<div class="testimonial-content">
 								<p><span class="quote quote-open">&ldquo;</span>Radley rescued SPOT's sorely neglected and out of date website and transformed it into a wonderful new public face in an amazingly short time!   He added video, streamlined every section of the site and added a much needed on-line application option for our clients.  His excellent suggestions and creative genius throughout the site have increased our traffic and accessibility tremendously.  He is extremely professional and pleasant to work with (really listening carefully and patiently explaining all the steps he was taking to our team of non-techies).  We will definitely use his services again and would highly recommend his technical talent and business acumen!<span class="quote quote-close">&rdquo;</span></p>
@@ -322,7 +323,7 @@
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="testimonials/shannon-mcalister.jpg" alt="Shannon McAlister"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/shannon-mcalister.jpg'); ?>" alt="Shannon McAlister"></div>
 							
 							<div class="testimonial-content">
 								<p><span class="quote quote-open">&ldquo;</span>Radley did a great job! He installed a new WP theme, added a working contact form and cleaned up the backend including updating and adding necessary plugins. He was super timely, communicative, and easy to work with.<span class="quote quote-close">&rdquo;</span></p>
@@ -334,7 +335,7 @@
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="testimonials/zack-p.jpeg" alt="Zack P."></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/zack-p-min.jpeg'); ?>" alt="Zack P."></div>
 							
 							<div class="testimonial-content">
 								<p><span class="quote quote-open">&ldquo;</span>I worked with Radley for about five years in the agency world. My business partner and I hired Radley when he was a brand-new  developer; inexperienced, but bright, eager, and motivated. In a very short amount of time, Radley grew into a brilliant developer and became our agency's lead developer. He and I worked in-tandem on dozens of websites over the years. He has qualities that are vital to successful programming. Firstly, he takes great personal pride in his work. His personal expectations of quality exceed that of those around him, and that makes his work superb. Radley is also a creative problem solver. We often joked that "if a client can dream it, Radley can build it". And finally, Radley's greatest luxury is his ability to articulate complex concepts both in "programmer-speak", and layman's terms. I've had Radley write summaries for clients, where his layman's term verbiage is so eloquent that I just copy and paste it to my client. For those of you familiar with web developers, you know this is extremely rare. He's the ultimate 5-tool player, and you should certainly hire him.<span class="quote quote-close">&rdquo;</span></p>
@@ -588,6 +589,20 @@
 	</div>
 	
 </div>
+
+<?php
+// Update gtag.js once a day
+$filename = include( 'gtag.php' );
+?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="<?php echo htmlspecialchars($filename); ?>"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-2575959-16');
+</script>
 
 </body>
 </html>
