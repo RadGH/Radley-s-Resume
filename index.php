@@ -5,7 +5,11 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Radley Sustaire's Resume</title>
 	
-	<link rel="stylesheet" href="style.css?v=1.0.3">
+	<?php if ( isset($_REQUEST['rad']) ) { ?>
+	<link rel="stylesheet" href="style.css">
+	<?php }else{ ?>
+	<link rel="stylesheet" href="style.min.css">
+	<?php } ?>
 	
 	<!-- Typekit: FF Tisa Sans -->
 	<script src="https://use.typekit.net/zjx4aff.js"></script>
