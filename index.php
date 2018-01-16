@@ -66,13 +66,12 @@
 				
 				<div class="content">
 					<ul class="skill-list">
-						<li>HTML/CSS <span class="duration">11 Years</span></li>
-						<li>PHP <span class="duration">10 Years</span></li>
-						<li>MySQL <span class="duration">10 Years</span></li>
-						<li>JavaScript <span class="duration">8 Years</span></li>
-						<li>jQuery <span class="duration">6 Years</span></li>
-						<li>WordPress <span class="duration">6 Years</span></li>
-						<li>Git <span class="duration">4 Years</span></li>
+						<li>HTML/CSS <span class="duration">12 Years</span></li>
+						<li>PHP <span class="duration">11 Years</span></li>
+						<li>MySQL <span class="duration">11 Years</span></li>
+						<li>JavaScript <span class="duration">9 Years</span></li>
+						<li>WordPress <span class="duration">7 Years</span></li>
+						<li>Git <span class="duration">5 Years</span></li>
 					</ul>
 				</div>
 			
@@ -84,10 +83,10 @@
 				
 				<div class="content">
 					<ul class="skill-list">
-						<li>Photoshop <span class="duration">7 Years</span> </li>
-						<li>IT Support <span class="duration">5 Years</span> </li>
+						<li>Photoshop <span class="duration">8 Years</span> </li>
+						<li>IT/Tech Support <span class="duration">6 Years</span> </li>
 						<li>Team Leader <span class="duration">4 Years</span></li>
-						<li>Project Management <span class="duration">2 Years</span> </li>
+						<li>Project Management <span class="duration">3 Years</span> </li>
 						<li>Illustrator <span class="duration">2 Years</span> </li>
 					</ul>
 				</div>
@@ -100,9 +99,9 @@
 				
 				<div class="content">
 					<ul class="skill-list">
-						<li>Cycling <span class="no-print">(<a href="https://ridewithgps.com/users/776739/activities" target="_blank">View Routes</a>)</span></li>
+						<li>Cycling</li>
 						<li>Camping and Hiking</li>
-						<li>Enjoying craft beer</li>
+						<li>VR &amp; PC Gaming</li>
 					</ul>
 				</div>
 			
@@ -116,9 +115,9 @@
 				<h3 class="section-title">Introduction</h3>
 				
 				<div class="content">
-					<p>I have 11+ years of web development experience. I was the lead developer for a digital marketing agency
-					   for 5 years. I continue to specialize in WordPress development and own my own web development business, <a href="https://zingmap.com/" target="_blank">ZingMap</a>.</p>
-				</div>
+					<p>I have 12 years of web development experience. I was the lead developer for a digital marketing agency
+					   for 5 years. I continue to specialize in WordPress development from home for Alchemy + Aim, ZingMap,
+					   and the occasional side project.</div>
 			</div>
 			
 			<div class="employment primary-section">
@@ -127,6 +126,22 @@
 				<div class="content">
 					
 					<div class="sq-ordered-list">
+						
+						<div class="sq-list-item">
+							<div class="sq-list-header">
+								<div class="date">September 2017 &mdash; Current</div>
+								<h3>Alchemy + Aim</h3>
+								<h4>Front-End Developer and Support Specialist</h4>
+							</div>
+							
+							<div class="sq-list-content">
+								<ul>
+									<li>Complete custom WordPress builds from a design PSD.</li>
+									<li>Coordinating with team members, designers and clients.</li>
+									<li>Offering customer support through an email ticketing system, and occasional phone/online meetings.</li>
+								</ul>
+							</div>
+						</div>
 						
 						<div class="sq-list-item">
 							<div class="sq-list-header">
