@@ -400,6 +400,9 @@ function return_base64_url( $image ) {
 								<div class="date">Feb 2016</div>
 								<h3>Noindex Pages</h3>
 								<h4><a href="https://wordpress.org/plugins/noindex-pages/" target="_blank">wordpress.org/plugins/noindex-pages</a></h4>
+								<div class="stars">
+									<span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+								</div>
 							</div>
 							
 							<div class="sq-list-content">

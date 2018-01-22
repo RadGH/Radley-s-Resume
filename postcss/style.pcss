@@ -118,9 +118,8 @@ h3.section-title {
 
 /* Employment items */
 .sq-list-item {
-	margin: 0 0 1em;
+	margin: 0 0 2em;
 	page-break-inside: avoid;
-	overflow: hidden;
 }
 
 .sq-list-header {
@@ -158,28 +157,31 @@ h3.section-title {
 .sq-list-item {
 	padding-left: 50px;
 	position: relative;
-	counter-increment: plugin;
+	counter-increment: sq;
 }
 
 .sq-list-item:before {
-	content: counter(plugin);
-	position: absolute;
-	top: 3px;
-	left: 0;
-	width: 30px;
-	height: 30px;
-	border-radius: 5%;
-	background: #101010;
-	font-size: 12px;
-	color: #fff;
-	font-weight: 700;
-	text-align: center;
-	line-height: 27px;
+    content: counter(sq);
+    position: absolute;
+    top: 3px;
+    left: -24px;
+    width: 54px;
+	height: 100%;
+    padding-left: 24px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 0 2px 2px 0;
+
+	background: #010101;
+	border-right: 5px solid #ff6600;
 }
 
 /* Testimonials */
 .testimonial-item {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 	page-break-inside: avoid;
 }
 
@@ -277,6 +279,22 @@ ul.skill-list .duration {
 	float: right;
 }
 
+/* Star rating */
+.stars {
+	margin: 0.25em 0;
+}
+
+.sq-list-header h4 + .stars {
+	margin-top: -0.125em;
+}
+
+.stars span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHJlY3QgeD0iMCIgZmlsbD0ibm9uZSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+PGc+PHBhdGggZmlsbD0iI2ZmNjYwMCIgZD0iTTEwIDFsMyA2IDYgLjc1LTQuMTIgNC42MkwxNiAxOWwtNi0zLTYgMyAxLjEzLTYuNjNMMSA3Ljc1IDcgN3oiLz48L2c+PC9zdmc+);
+}
+
 /* Footer */
 .footer {
 	font-size: 14px;
@@ -327,11 +345,20 @@ ul.skill-list .duration {
 
 	.testimonial-item {
 		position: relative;
-		margin-bottom: 2em;
 	}
 
 	.testimonial-item:last-child {
 		margin-bottom: 0;
+	}
+
+	/* square list */
+	.sq-list-item:before {
+		border-right: none;
+	}
+
+	/* star rating */
+	.stars {
+		display: none;
 	}
 }
 
