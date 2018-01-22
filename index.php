@@ -401,7 +401,7 @@ function return_base64_url( $image ) {
 								<h3>Noindex Pages</h3>
 								<h4><a href="https://wordpress.org/plugins/noindex-pages/" target="_blank">wordpress.org/plugins/noindex-pages</a></h4>
 								<div class="stars">
-									<span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+									<a href="https://wordpress.org/support/plugin/noindex-pages/reviews/" target="_blank" title="Read all reviews"><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span></a>
 								</div>
 							</div>
 							
