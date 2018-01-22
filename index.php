@@ -422,7 +422,7 @@ function return_base64_url( $image ) {
 						<div class="sq-list-item">
 							<div class="sq-list-header">
 								<div class="date">Jan 2015</div>
-								<h3>RS WooCommerce Brands</h3>
+								<h3>WordPress Popular Posts &ndash; Tabbed Widget</h3>
 								<h4><a href="https://github.com/RadGH/WordPress-Popular-Posts---Tabbed-Widget" target="_blank">github.com/RadGH/WordPress-Popular-Posts---Tabbed-Widget</a></h4>
 							</div>
 							
