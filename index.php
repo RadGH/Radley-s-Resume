@@ -25,6 +25,15 @@ function return_base64_url( $image ) {
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ff6600">
+	
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Radley Sustaire's Resume" />
+	<meta property="og:description" content="A resume for Radley's experiences as a WordPress developer." />
+	<meta property="og:url" content="https://radleysustaire.com/resume/" />
+	<meta property="og:site_name" content="Radley Sustaire" />
+	<meta property="article:publisher" content="https://www.facebook.com/radgh" />
+	<meta property="og:image" content="https://radleysustaire.com/resume/rs-circle.png" />
 </head>
 <body>
 
@@ -120,9 +129,14 @@ function return_base64_url( $image ) {
 				<h3 class="section-title">Introduction</h3>
 				
 				<div class="content">
-					<p>I have 12 years of web development experience. I was the lead developer for a digital marketing agency
-					   for 5 years. I continue to specialize in WordPress development from home for Alchemy + Aim, ZingMap,
-					   and the occasional side project.</div>
+					<p>Hey there, I'm Radley! I'm currently building custom WordPress websites and solving
+					   technical support tickets for <a href="https://alchemyandaim.com/" target="_blank" rel="external">Alchemy + Aim</a>. I have more than 12 years of experience
+					   with web development and specialize exclusively with WordPress. I also own a business
+					   named <a href="https://zingmap.com/" target="_blank" rel="external">ZingMap</a> where I provide managed WordPress hosting, development and maintenance
+					   services.</p>
+					
+					<p>If you want to discuss a project or opportunity with me, <a href="mailto:radleygh@gmail.com">send me an email</a>. Thank you!</p>
+				</div>
 			</div>
 			
 			<div class="employment primary-section">
