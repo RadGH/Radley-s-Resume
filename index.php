@@ -9,7 +9,7 @@ function return_base64_url( $image ) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Radley Sustaire's Resume</title>
+	<title>Resume &ndash; Radley Sustaire, WordPress Developer</title>
 	
 	<?php if ( isset($_REQUEST['rad']) ) { ?>
 	<link rel="stylesheet" href="style.css">
@@ -44,8 +44,7 @@ function return_base64_url( $image ) {
 		<div class="primary">
 			
 			<div class="name">
-				<h1>Radley Sustaire's Resume</h1>
-				<h2>WordPress Developer</h2>
+				<h1>Resume &ndash; Radley Sustaire <small>WordPress Developer</small></h1>
 			</div>
 			
 		</div>
