@@ -535,8 +535,8 @@ function return_base64_url( $image ) {
 								<h4><a href="https://pegrodrigues.com/" target="_blank">pegrodrigues.com</a></h4>
 							</div>
 							<div class="sq-list-content">
-								<p>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
-									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</p>
+								<p><em>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
+									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -548,8 +548,8 @@ function return_base64_url( $image ) {
 								<h4><a href="http://tracyomalley.com/" target="_blank">tracyomalley.com</a></h4>
 							</div>
 							<div class="sq-list-content">
-								<p>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
-									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</p>
+								<p><em>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
+									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -562,6 +562,7 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p>Custom map locators for Parks, Facilities, and Bird trails. Custom post type for taking classes. Advanced navigation and mobile menus. ADA Section 503c Compliance.</p>
+								<p><em>Built for Limelight Department</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -573,8 +574,8 @@ function return_base64_url( $image ) {
 								<h4><a href="https://gorillacapital.com/" target="_blank">gorillacapital.com</a></h4>
 							</div>
 							<div class="sq-list-content">
-								<p>Custom built property locator, Custom advanced search tool, Custom Fix + Flip Calculator.
-								</p>
+								<p>Custom built property locator, Custom advanced search tool, Custom Fix + Flip Calculator.</p>
+								<p><em>Built for Limelight Department</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -586,8 +587,8 @@ function return_base64_url( $image ) {
 								<h4><a href="https://bowtecharchery.com/" target="_blank">bowtecharchery.com</a></h4>
 							</div>
 							<div class="sq-list-content">
-								<p>International brand of hunting bows. Custom bow sorting and comparison utility. Store locator with API.
-								</p>
+								<p>International brand of hunting bows. Custom bow sorting and comparison utility. Store locator with API.</p>
+								<p><em>Built for Limelight Department</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -599,8 +600,8 @@ function return_base64_url( $image ) {
 								<h4><a href="https://concealednation.org/" target="_blank">concealednation.org</a></h4>
 							</div>
 							<div class="sq-list-content">
-								<p>Complete custom rebuild. Built a custom ad placement plugin with desktop/mobile variants.
-								</p>
+								<p>Complete custom rebuild. Built a custom ad placement plugin with desktop/mobile variants.</p>
+								<p><em>Built for Limelight Department</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -613,6 +614,7 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p>Property locator plugin (iHomeFinder), Unique day/night theme, Animated front page.</p>
+								<p><em>Built for Limelight Department</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -624,8 +626,8 @@ function return_base64_url( $image ) {
 								<h4><a href="https://joinprojectmayhem.com/" target="_blank">joinprojectmayhem.com</a></h4>
 							</div>
 							<div class="sq-list-content">
-								<p>Custom map-style interface. Many animations. Contribute &amp;amp; Sightings section managed by custom post types. User submitted content.
-								</p>
+								<p>Custom map-style interface. Many animations. Contribute &amp;amp; Sightings section managed by custom post types. User submitted content.</p>
+								<p><em>Built for Limelight Department</em></p>
 							</div>
 						</div>
 					</div>
