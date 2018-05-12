@@ -528,7 +528,7 @@ function return_base64_url( $image ) {
 					<div class="sq-numeric-list">
 						<div class="sq-list-item">
 							<div class="sq-list-website-thumb">
-								<a href="/images/websites/images/websites/src/peg-rodrigues.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/peg-rodrigues.png' ); ?>" alt="Screen capture of PegRodrigues.com"></a>
+								<a href="images/websites/src/peg-rodrigues.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/peg-rodrigues.png' ); ?>" alt="Screen capture of PegRodrigues.com"></a>
 							</div>
 							<div class="sq-list-header">
 								<h3>Peg Rodrigues</h3>
@@ -541,7 +541,7 @@ function return_base64_url( $image ) {
 						</div>
 						<div class="sq-list-item">
 							<div class="sq-list-website-thumb">
-								<a href="/images/websites/images/websites/src/tracy-omalley.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/tracy-omalley.png' ); ?>" alt="Screen capture of TracyOMalley.com"></a>
+								<a href="images/websites/src/tracy-omalley.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/tracy-omalley.png' ); ?>" alt="Screen capture of TracyOMalley.com"></a>
 							</div>
 							<div class="sq-list-header">
 								<h3>Tracy O'Malley</h3>
@@ -555,7 +555,7 @@ function return_base64_url( $image ) {
 						<div class="sq-list-item">
 							<div class="sq-list-header">
 								<div class="sq-list-website-thumb">
-									<a href="/images/websites/images/websites/src/willamalane.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/willamalane.png' ); ?>" alt="Screen capture of Willamane.org"></a>
+									<a href="images/websites/src/willamalane.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/willamalane.png' ); ?>" alt="Screen capture of Willamane.org"></a>
 								</div>
 								<h3>Willamalane Parks &amp; Recreation District</h3>
 								<h4><a href="http://willamalane.org/" target="_blank">willamalane.org</a></h4>
@@ -567,7 +567,7 @@ function return_base64_url( $image ) {
 						<div class="sq-list-item">
 							<div class="sq-list-header">
 								<div class="sq-list-website-thumb">
-									<a href="/images/websites/images/websites/src/gorilla-capital.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/gorilla-capital.png' ); ?>" alt="Screen capture of GorillaCapital.com"></a>
+									<a href="images/websites/src/gorilla-capital.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/gorilla-capital.png' ); ?>" alt="Screen capture of GorillaCapital.com"></a>
 								</div>
 								<h3>Gorilla Capital</h3>
 								<h4><a href="https://gorillacapital.com/" target="_blank">gorillacapital.com</a></h4>
@@ -580,7 +580,7 @@ function return_base64_url( $image ) {
 						<div class="sq-list-item">
 							<div class="sq-list-header">
 								<div class="sq-list-website-thumb">
-									<a href="/images/websites/images/websites/src/bowtech.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/bowtech.png' ); ?>" alt="Screen capture of BowtechArchery.com"></a>
+									<a href="images/websites/src/bowtech.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/bowtech.png' ); ?>" alt="Screen capture of BowtechArchery.com"></a>
 								</div>
 								<h3>Bowtech Archery</h3>
 								<h4><a href="https://bowtecharchery.com/" target="_blank">bowtecharchery.com</a></h4>
@@ -593,7 +593,7 @@ function return_base64_url( $image ) {
 						<div class="sq-list-item">
 							<div class="sq-list-header">
 								<div class="sq-list-website-thumb">
-									<a href="/images/websites/images/websites/concealed-nation.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/concealed-nation.png' ); ?>" alt="Screen capture of ConcealedNation.org"></a>
+									<a href="images/websites/concealed-nation.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/concealed-nation.png' ); ?>" alt="Screen capture of ConcealedNation.org"></a>
 								</div>
 								<h3>Concealed Nation</h3>
 								<h4><a href="https://concealednation.org/" target="_blank">concealednation.org</a></h4>
@@ -606,7 +606,7 @@ function return_base64_url( $image ) {
 						<div class="sq-list-item">
 							<div class="sq-list-header">
 								<div class="sq-list-website-thumb">
-									<a href="/images/websites/images/websites/st-clairs.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/st-clairs.png' ); ?>" alt="Screen capture of TheStClairs.com"></a>
+									<a href="images/websites/st-clairs.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/st-clairs.png' ); ?>" alt="Screen capture of TheStClairs.com"></a>
 								</div>
 								<h3>The Adrienne St Clair Group</h3>
 								<h4><a href="https://www.thestclairs.com/" target="_blank">thestclairs.com</a></h4>
@@ -618,7 +618,7 @@ function return_base64_url( $image ) {
 						<div class="sq-list-item">
 							<div class="sq-list-header">
 								<div class="sq-list-website-thumb">
-									<a href="/images/websites/images/websites/project-mayhem.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/project-mayhem.png' ); ?>" alt="Screen capture of JoinProjectMayhem.com"></a>
+									<a href="images/websites/project-mayhem.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/project-mayhem.png' ); ?>" alt="Screen capture of JoinProjectMayhem.com"></a>
 								</div>
 								<h3>Fight Club 2: Project Mayhem (Dark Horse Comics)</h3>
 								<h4><a href="https://joinprojectmayhem.com/" target="_blank">joinprojectmayhem.com</a></h4>
