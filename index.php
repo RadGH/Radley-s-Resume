@@ -1,7 +1,8 @@
 <?php
 function return_base64_url( $image ) {
-	$mime = mime_content_type($image);
-	return 'data: '.(function_exists('mime_content_type') ? mime_content_type($image) : $mime).';base64,'.base64_encode(file_get_contents($image));
+	$mime = mime_content_type( $image );
+	
+	return 'data: ' . ( function_exists( 'mime_content_type' ) ? mime_content_type( $image ) : $mime ) . ';base64,' . base64_encode( file_get_contents( $image ) );
 	
 }
 ?><!doctype html>
@@ -11,12 +12,12 @@ function return_base64_url( $image ) {
 	<meta name="viewport" content="width=device-width">
 	<title>Resume &ndash; Radley Sustaire, WordPress Developer</title>
 	
-	<?php if ( isset($_REQUEST['rad']) ) { ?>
-	<link rel="stylesheet" href="style.css">
+	<?php if ( isset( $_REQUEST['rad'] ) ) { ?>
+		<link rel="stylesheet" href="style.css">
 	<?php }else{ ?>
-<style type="text/css">
-<?php include('style.min.css'); ?>
-</style>
+		<style type="text/css">
+			<?php include('style.min.css'); ?>
+		</style>
 	<?php } ?>
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -44,13 +45,15 @@ function return_base64_url( $image ) {
 		<div class="primary">
 			
 			<div class="name">
-				<h1>Resume &ndash; Radley Sustaire <small>WordPress Developer</small></h1>
+				<h1>Resume &ndash; Radley Sustaire
+					<small>WordPress Developer</small>
+				</h1>
 			</div>
-			
+		
 		</div>
 		
 		<div class="secondary"></div>
-		
+	
 	</div>
 	
 	<div class="body">
@@ -66,9 +69,11 @@ function return_base64_url( $image ) {
 						<li class="email"><span class="prefix">Email</span> <a href="mailto:radleygh@gmail.com" target="_blank">radleygh@gmail.com</a></li>
 						<li class="skype"><span class="prefix">Skype</span> <span class="skype-name">radleygh</span></li>
 						<li class="website"><span class="prefix">Website</span> <a href="https://radleysustaire.com/" target="_blank">radleysustaire.com</a></li>
-						<li class="linkedin"><span class="prefix">LinkedIn</span> <a href="https://www.linkedin.com/in/radley-sustaire" target="_blank">linkedin.com/in/radley-sustaire</a></li>
+						<li class="linkedin"><span class="prefix">LinkedIn</span>
+							<a href="https://www.linkedin.com/in/radley-sustaire" target="_blank">linkedin.com/in/radley-sustaire</a></li>
 						<li class="github"><span class="prefix">Github</span> <a href="https://github.com/RadGH/" target="_blank">github.com/RadGH</a></li>
-						<li class="location"><span class="prefix">Location</span> <a href="https://www.google.com/maps/place/Corvallis,+OR/@44.562951,-123.3535763,12z" target="_blank">Corvallis, OR</a></li>
+						<li class="location"><span class="prefix">Location</span>
+							<a href="https://www.google.com/maps/place/Corvallis,+OR/@44.562951,-123.3535763,12z" target="_blank">Corvallis, OR</a></li>
 					</ul>
 				</div>
 			</div>
@@ -96,11 +101,11 @@ function return_base64_url( $image ) {
 				
 				<div class="content">
 					<ul class="skill-list">
-						<li>Photoshop <span class="duration">8 Years</span> </li>
-						<li>IT/Tech Support <span class="duration">6 Years</span> </li>
+						<li>Photoshop <span class="duration">8 Years</span></li>
+						<li>IT/Tech Support <span class="duration">6 Years</span></li>
 						<li>Team Leader <span class="duration">4 Years</span></li>
-						<li>Project Management <span class="duration">3 Years</span> </li>
-						<li>Illustrator <span class="duration">2 Years</span> </li>
+						<li>Project Management <span class="duration">3 Years</span></li>
+						<li>Illustrator <span class="duration">2 Years</span></li>
 					</ul>
 				</div>
 			
@@ -270,9 +275,9 @@ function return_base64_url( $image ) {
 								</ul>
 							</div>
 						</div>
-				
-					</div>
 					
+					</div>
+				
 				</div>
 			</div>
 			
@@ -288,10 +293,12 @@ function return_base64_url( $image ) {
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/erik-contzius.jpg'); ?>" alt="Erik Contzius"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url( 'images/testimonials/erik-contzius.jpg' ); ?>" alt="Erik Contzius"></div>
 							
 							<div class="testimonial-content">
-								<p><span class="quote quote-open">&ldquo;</span>Radley embodies the best of a partner in development. He really knows his way around databases, WordPress, and has a good design sense to boot. Radley intuits solutions to problems, both anticipated and unexpected. He is patient and more than willing to debug problems that arise. His communication skills are excellent. I will hire Radley again most assuredly!<span class="quote quote-close">&rdquo;</span></p>
+								<p>
+									<span class="quote quote-open">&ldquo;</span>Radley embodies the best of a partner in development. He really knows his way around databases, WordPress, and has a good design sense to boot. Radley intuits solutions to problems, both anticipated and unexpected. He is patient and more than willing to debug problems that arise. His communication skills are excellent. I will hire Radley again most assuredly!<span class="quote quote-close">&rdquo;</span>
+								</p>
 								
 								<h3><span class="quote">&mdash;</span> <strong>Erik Contzius</strong>, Women Cantors’ Network</h3>
 							</div>
@@ -300,10 +307,12 @@ function return_base64_url( $image ) {
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/jamie-stephens.jpg'); ?>" alt="Jamie Stephens"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url( 'images/testimonials/jamie-stephens.jpg' ); ?>" alt="Jamie Stephens"></div>
 							
 							<div class="testimonial-content">
-								<p><span class="quote quote-open">&ldquo;</span>Radley took my ideas and ran with them -- the end result is a solution that does more than I originally planned and I couldn't be more thrilled! He was prompt in replying to my messages and I was provided with detailed updates along the way. If you're looking for a developer, Radley really knows his stuff. Stop scrolling and send him a message now, you won't regret it. Thank you Radley!<span class="quote quote-close">&rdquo;</span></p>
+								<p>
+									<span class="quote quote-open">&ldquo;</span>Radley took my ideas and ran with them -- the end result is a solution that does more than I originally planned and I couldn't be more thrilled! He was prompt in replying to my messages and I was provided with detailed updates along the way. If you're looking for a developer, Radley really knows his stuff. Stop scrolling and send him a message now, you won't regret it. Thank you Radley!<span class="quote quote-close">&rdquo;</span>
+								</p>
 								
 								<h3><span class="quote">&mdash;</span> <strong>Jamie Stephens</strong>, Brantford Experts</h3>
 							</div>
@@ -312,10 +321,12 @@ function return_base64_url( $image ) {
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/jeff-h.jpg'); ?>" alt="Jeff H."></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url( 'images/testimonials/jeff-h.jpg' ); ?>" alt="Jeff H."></div>
 							
 							<div class="testimonial-content">
-								<p><span class="quote quote-open">&ldquo;</span>Radley is an absolute pleasure to work with. He's professional, organized, and efficient. The thing I looked most about working with him is his communication. He explains things thoroughly and succinctly. He's an all-around outstanding contractor.<span class="quote quote-close">&rdquo;</span></p>
+								<p>
+									<span class="quote quote-open">&ldquo;</span>Radley is an absolute pleasure to work with. He's professional, organized, and efficient. The thing I looked most about working with him is his communication. He explains things thoroughly and succinctly. He's an all-around outstanding contractor.<span class="quote quote-close">&rdquo;</span>
+								</p>
 								
 								<h3><span class="quote">&mdash;</span> <strong>Jeff H.</strong></h3>
 							</div>
@@ -324,10 +335,12 @@ function return_base64_url( $image ) {
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/joey-curtin.jpg'); ?>" alt="Joey Curtin"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url( 'images/testimonials/joey-curtin.jpg' ); ?>" alt="Joey Curtin"></div>
 							
 							<div class="testimonial-content">
-								<p><span class="quote quote-open">&ldquo;</span>Radley rescued SPOT's sorely neglected and out of date website and transformed it into a wonderful new public face in an amazingly short time!   He added video, streamlined every section of the site and added a much needed on-line application option for our clients.  His excellent suggestions and creative genius throughout the site have increased our traffic and accessibility tremendously.  He is extremely professional and pleasant to work with (really listening carefully and patiently explaining all the steps he was taking to our team of non-techies).  We will definitely use his services again and would highly recommend his technical talent and business acumen!<span class="quote quote-close">&rdquo;</span></p>
+								<p>
+									<span class="quote quote-open">&ldquo;</span>Radley rescued SPOT's sorely neglected and out of date website and transformed it into a wonderful new public face in an amazingly short time! He added video, streamlined every section of the site and added a much needed on-line application option for our clients. His excellent suggestions and creative genius throughout the site have increased our traffic and accessibility tremendously. He is extremely professional and pleasant to work with (really listening carefully and patiently explaining all the steps he was taking to our team of non-techies). We will definitely use his services again and would highly recommend his technical talent and business acumen!<span class="quote quote-close">&rdquo;</span>
+								</p>
 								
 								<h3><span class="quote">&mdash;</span> <strong>Joey Curtin</strong>, Stop Pet Overpopulation Today</h3>
 							</div>
@@ -336,10 +349,12 @@ function return_base64_url( $image ) {
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/shannon-mcalister.jpg'); ?>" alt="Shannon McAlister"></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url( 'images/testimonials/shannon-mcalister.jpg' ); ?>" alt="Shannon McAlister"></div>
 							
 							<div class="testimonial-content">
-								<p><span class="quote quote-open">&ldquo;</span>Radley did a great job! He installed a new WP theme, added a working contact form and cleaned up the backend including updating and adding necessary plugins. He was super timely, communicative, and easy to work with.<span class="quote quote-close">&rdquo;</span></p>
+								<p>
+									<span class="quote quote-open">&ldquo;</span>Radley did a great job! He installed a new WP theme, added a working contact form and cleaned up the backend including updating and adding necessary plugins. He was super timely, communicative, and easy to work with.<span class="quote quote-close">&rdquo;</span>
+								</p>
 								
 								<h3><span class="quote">&mdash;</span> <strong>Shannon McAlister</strong>, PDX Homeowners</h3>
 							</div>
@@ -348,10 +363,12 @@ function return_base64_url( $image ) {
 						
 						<div class="testimonial-item">
 							
-							<div class="testimonial-image"><img src="<?php echo return_base64_url('testimonials/zack-p-min.jpeg'); ?>" alt="Zack P."></div>
+							<div class="testimonial-image"><img src="<?php echo return_base64_url( 'images/testimonials/zack-p-min.jpeg' ); ?>" alt="Zack P."></div>
 							
 							<div class="testimonial-content">
-								<p><span class="quote quote-open">&ldquo;</span>I worked with Radley for about five years in the agency world. My business partner and I hired Radley when he was a brand-new  developer; inexperienced, but bright, eager, and motivated. In a very short amount of time, Radley grew into a brilliant developer and became our agency's lead developer. He and I worked in-tandem on dozens of websites over the years. He has qualities that are vital to successful programming. Firstly, he takes great personal pride in his work. His personal expectations of quality exceed that of those around him, and that makes his work superb. Radley is also a creative problem solver. We often joked that "if a client can dream it, Radley can build it". And finally, Radley's greatest luxury is his ability to articulate complex concepts both in "programmer-speak", and layman's terms. I've had Radley write summaries for clients, where his layman's term verbiage is so eloquent that I just copy and paste it to my client. For those of you familiar with web developers, you know this is extremely rare. He's the ultimate 5-tool player, and you should certainly hire him.<span class="quote quote-close">&rdquo;</span></p>
+								<p>
+									<span class="quote quote-open">&ldquo;</span>I worked with Radley for about five years in the agency world. My business partner and I hired Radley when he was a brand-new developer; inexperienced, but bright, eager, and motivated. In a very short amount of time, Radley grew into a brilliant developer and became our agency's lead developer. He and I worked in-tandem on dozens of websites over the years. He has qualities that are vital to successful programming. Firstly, he takes great personal pride in his work. His personal expectations of quality exceed that of those around him, and that makes his work superb. Radley is also a creative problem solver. We often joked that "if a client can dream it, Radley can build it". And finally, Radley's greatest luxury is his ability to articulate complex concepts both in "programmer-speak", and layman's terms. I've had Radley write summaries for clients, where his layman's term verbiage is so eloquent that I just copy and paste it to my client. For those of you familiar with web developers, you know this is extremely rare. He's the ultimate 5-tool player, and you should certainly hire him.<span class="quote quote-close">&rdquo;</span>
+								</p>
 								
 								<h3><span class="quote">&mdash;</span> <strong>Zack P.</strong></h3>
 							</div>
@@ -372,6 +389,53 @@ function return_base64_url( $image ) {
 						
 						<div class="sq-list-item">
 							<div class="sq-list-header">
+								<div class="date">May 2018</div>
+								<h3>RS Next and Previous Posts</h3>
+								<h4><a href="https://github.com/RadGH/RS-Next-Previous-Posts" target="_blank">github.com/RadGH/RS-Next-Previous-Posts</a></h4>
+							</div>
+							
+							<div class="sq-list-content">
+								<p>Enhance your blog by adding Next and Previous Post links below your articles. This plugin displays a featured image
+								   in addition to the post title and excerpt.</p>
+							</div>
+							
+							<div class="sq-list-image">
+								<img src="<?php echo return_base64_url( 'images/plugins/rs-next-previous-posts.png' ); ?>" alt="Next and Previous Posts plugin in action">
+							</div>
+						</div>
+						
+						<div class="sq-list-item">
+							<div class="sq-list-header">
+								<div class="date">April 2018</div>
+								<h3>RS Simplified Gravity Forms Styles</h3>
+								<h4><a href="https://github.com/RadGH/RS-Simplified-Gravityforms-Styles" target="_blank">github.com/RadGH/RS-Simplified-Gravityforms-Styles</a></h4>
+							</div>
+							
+							<div class="sq-list-content">
+								<p>Replaces the default Gravity Forms stylesheets with simpler, easy-to-override stylesheets (NO !important rules).
+								   A list of elements with generic colors is available to easily match the branding of your website.</p>
+							</div>
+						</div>
+						
+						<div class="sq-list-item">
+							<div class="sq-list-header">
+								<div class="date">February 2018</div>
+								<h3>Auto Fill Alt Tags</h3>
+								<h4><a href="https://github.com/RadGH/Auto-Fill-Alt-Tags" target="_blank">github.com/RadGH/Auto-Fill-Alt-Tags</a></h4>
+							</div>
+							
+							<div class="sq-list-content">
+								<p>Automatically fills in alt tags for your images in the post content. Preserves existing alt text if it exists. If
+								   alt text is not entered for an attachment, the caption or title will be used instead. No configuration necessary.</p>
+							</div>
+							
+							<div class="sq-list-image">
+								<img src="<?php echo return_base64_url( 'images/plugins/autofill-alt-tags.png' ); ?>" alt="Image tags with before and after, showing that alt tags have been filled in.">
+							</div>
+						</div>
+						
+						<div class="sq-list-item">
+							<div class="sq-list-header">
 								<div class="date">May 2017</div>
 								<h3>RS WooCommerce Brands</h3>
 								<h4><a href="https://github.com/RadGH/RS-WooCommerce-Brands" target="_blank">github.com/RadGH/RS-WooCommerce-Brands</a></h4>
@@ -387,7 +451,8 @@ function return_base64_url( $image ) {
 							<div class="sq-list-header">
 								<div class="date">Mar 2016</div>
 								<h3>WooCommerce Virtualized Variations</h3>
-								<h4><a href="https://github.com/RadGH/WooCommerce-Virtualized-Variations" target="_blank">github.com/RadGH/WooCommerce-Virtualized-Variations</a></h4>
+								<h4><a href="https://github.com/RadGH/WooCommerce-Virtualized-Variations" target="_blank">github.com/RadGH/WooCommerce-Virtualized-Variations</a>
+								</h4>
 							</div>
 							
 							<div class="sq-list-content">
@@ -404,7 +469,8 @@ function return_base64_url( $image ) {
 							</div>
 							
 							<div class="sq-list-content">
-								<p>Turn your WooCommerce featured image and gallery photos into an interactive image carousel using <a href="https://flickity.metafizzy.co/" target="_blank">Flickty</a>.</p>
+								<p>Turn your WooCommerce featured image and gallery photos into an interactive image carousel using
+									<a href="https://flickity.metafizzy.co/" target="_blank">Flickty</a>.</p>
 							</div>
 						</div>
 						
@@ -412,7 +478,7 @@ function return_base64_url( $image ) {
 							<div class="sq-list-header">
 								<div class="date">Feb 2016</div>
 								<h3>Noindex Pages</h3>
-								<h4><a href="https://wordpress.org/plugins/noindex-pages/" target="_blank">wordpress.org/plugins/noindex-pages</a></h4>
+								<h4><a href="https://wordpress.org/images/plugins/noindex-pages/" target="_blank">wordpress.org/images/plugins/noindex-pages</a></h4>
 								<div class="stars">
 									<a href="https://wordpress.org/support/plugin/noindex-pages/reviews/" target="_blank" title="Read all reviews"><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span></a>
 								</div>
@@ -439,11 +505,14 @@ function return_base64_url( $image ) {
 							<div class="sq-list-header">
 								<div class="date">Jan 2015</div>
 								<h3>WordPress Popular Posts &ndash; Tabbed Widget</h3>
-								<h4><a href="https://github.com/RadGH/WordPress-Popular-Posts---Tabbed-Widget" target="_blank">github.com/RadGH/WordPress-Popular-Posts---Tabbed-Widget</a></h4>
+								<h4>
+									<a href="https://github.com/RadGH/WordPress-Popular-Posts---Tabbed-Widget" target="_blank">github.com/RadGH/WordPress-Popular-Posts---Tabbed-Widget</a>
+								</h4>
 							</div>
 							
 							<div class="sq-list-content">
-								<p>This extension for <a href="https://wordpress.org/plugins/wordpress-popular-posts/" target="_blank">WordPress Popular Posts</a> displays three tabs, for Daily,
+								<p>This extension for
+									<a href="https://wordpress.org/images/plugins/wordpress-popular-posts/" target="_blank">WordPress Popular Posts</a> displays three tabs, for Daily,
 								   Weekly and All Time statistics.</p>
 							</div>
 						</div>
@@ -458,8 +527,36 @@ function return_base64_url( $image ) {
 				<div class="content">
 					<div class="sq-numeric-list">
 						<div class="sq-list-item">
+							<div class="sq-list-website-thumb">
+								<a href="/images/websites/images/websites/src/peg-rodrigues.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/peg-rodrigues.png' ); ?>" alt="Screen capture of PegRodrigues.com"></a>
+							</div>
 							<div class="sq-list-header">
-								
+								<h3>Peg Rodrigues</h3>
+								<h4><a href="https://pegrodrigues.com/" target="_blank">pegrodrigues.com</a></h4>
+							</div>
+							<div class="sq-list-content">
+								<p>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
+									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</p>
+							</div>
+						</div>
+						<div class="sq-list-item">
+							<div class="sq-list-website-thumb">
+								<a href="/images/websites/images/websites/src/tracy-omalley.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/tracy-omalley.png' ); ?>" alt="Screen capture of TracyOMalley.com"></a>
+							</div>
+							<div class="sq-list-header">
+								<h3>Tracy O'Malley</h3>
+								<h4><a href="http://tracyomalley.com/" target="_blank">tracyomalley.com</a></h4>
+							</div>
+							<div class="sq-list-content">
+								<p>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
+									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</p>
+							</div>
+						</div>
+						<div class="sq-list-item">
+							<div class="sq-list-header">
+								<div class="sq-list-website-thumb">
+									<a href="/images/websites/images/websites/src/willamalane.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/willamalane.png' ); ?>" alt="Screen capture of Willamane.org"></a>
+								</div>
 								<h3>Willamalane Parks &amp; Recreation District</h3>
 								<h4><a href="http://willamalane.org/" target="_blank">willamalane.org</a></h4>
 							</div>
@@ -469,7 +566,9 @@ function return_base64_url( $image ) {
 						</div>
 						<div class="sq-list-item">
 							<div class="sq-list-header">
-								
+								<div class="sq-list-website-thumb">
+									<a href="/images/websites/images/websites/src/gorilla-capital.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/gorilla-capital.png' ); ?>" alt="Screen capture of GorillaCapital.com"></a>
+								</div>
 								<h3>Gorilla Capital</h3>
 								<h4><a href="https://gorillacapital.com/" target="_blank">gorillacapital.com</a></h4>
 							</div>
@@ -480,7 +579,9 @@ function return_base64_url( $image ) {
 						</div>
 						<div class="sq-list-item">
 							<div class="sq-list-header">
-								
+								<div class="sq-list-website-thumb">
+									<a href="/images/websites/images/websites/src/bowtech.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/bowtech.png' ); ?>" alt="Screen capture of BowtechArchery.com"></a>
+								</div>
 								<h3>Bowtech Archery</h3>
 								<h4><a href="https://bowtecharchery.com/" target="_blank">bowtecharchery.com</a></h4>
 							</div>
@@ -491,7 +592,9 @@ function return_base64_url( $image ) {
 						</div>
 						<div class="sq-list-item">
 							<div class="sq-list-header">
-								
+								<div class="sq-list-website-thumb">
+									<a href="/images/websites/images/websites/concealed-nation.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/concealed-nation.png' ); ?>" alt="Screen capture of ConcealedNation.org"></a>
+								</div>
 								<h3>Concealed Nation</h3>
 								<h4><a href="https://concealednation.org/" target="_blank">concealednation.org</a></h4>
 							</div>
@@ -502,7 +605,9 @@ function return_base64_url( $image ) {
 						</div>
 						<div class="sq-list-item">
 							<div class="sq-list-header">
-								
+								<div class="sq-list-website-thumb">
+									<a href="/images/websites/images/websites/st-clairs.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/st-clairs.png' ); ?>" alt="Screen capture of TheStClairs.com"></a>
+								</div>
 								<h3>The Adrienne St Clair Group</h3>
 								<h4><a href="https://www.thestclairs.com/" target="_blank">thestclairs.com</a></h4>
 							</div>
@@ -512,7 +617,9 @@ function return_base64_url( $image ) {
 						</div>
 						<div class="sq-list-item">
 							<div class="sq-list-header">
-								
+								<div class="sq-list-website-thumb">
+									<a href="/images/websites/images/websites/project-mayhem.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/project-mayhem.png' ); ?>" alt="Screen capture of JoinProjectMayhem.com"></a>
+								</div>
 								<h3>Fight Club 2: Project Mayhem (Dark Horse Comics)</h3>
 								<h4><a href="https://joinprojectmayhem.com/" target="_blank">joinprojectmayhem.com</a></h4>
 							</div>
@@ -521,17 +628,7 @@ function return_base64_url( $image ) {
 								</p>
 							</div>
 						</div>
-						<div class="sq-list-item">
-							<div class="sq-list-header">
-								
-								<h3>Virginia Concealed</h3>
-								<h4><a href="https://virginiaconcealed.com/" target="_blank">virginiaconcealed.com</a></h4>
-							</div>
-							<div class="sq-list-content">
-								<p>WooCommerce online training system, Off-site range database with API, Custom voucher PDF system.
-								</p>
-							</div>
-						</div></div>
+					</div>
 				</div>
 			</div>
 			
@@ -583,27 +680,30 @@ function return_base64_url( $image ) {
 						<li>Rustic Lighting and Fans</li>
 						<li>Scout26</li>
 						<li>Sea-Tac Lighting</li>
+						<li>SPOT Spay and Neuter</li>
 						<li>Steelhead Brewery</li>
 						<li>Stone River Publishing</li>
 						<li>Tailored Taps</li>
 						<li>The Growler Underground</li>
+						<li>Virginia Concealed</li>
 						<li>Women Cantors' Network</li>
 						<li>Zack Poelwijk</li>
 					</ul>
-					
+				
 				</div>
 			</div>
-			
-		</div>
 		
+		</div>
+	
 	</div>
 	
 	<div class="footer">
 		
-		<p>This resume was created by Radley Sustaire and is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>. <br>The source code is available on Github at <a href="https://github.com/RadGH/Radley-s-Resume" target="_blank">github.com/RadGH/Radley-s-Resume</a>.</p>
-		
-	</div>
+		<p>This resume was created by Radley Sustaire and is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.
+			<br>The source code is available on Github at <a href="https://github.com/RadGH/Radley-s-Resume" target="_blank">github.com/RadGH/Radley-s-Resume</a>.</p>
 	
+	</div>
+
 </div>
 
 <?php
@@ -611,10 +711,14 @@ function return_base64_url( $image ) {
 $filename = include( 'gtag.php' );
 ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="<?php echo htmlspecialchars($filename); ?>"></script>
+<script async src="<?php echo htmlspecialchars( $filename ); ?>"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+
 	gtag('js', new Date());
 
 	gtag('config', 'UA-2575959-16');
