@@ -536,7 +536,20 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p><em>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
-									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</em></p>
+										<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</em></p>
+							</div>
+						</div>
+						<div class="sq-list-item">
+							<div class="sq-list-website-thumb">
+								<a href="images/websites/src/kruggsmash.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/kruggsmash.png' ); ?>" alt="Screen capture of Kruggsmash.com"></a>
+							</div>
+							<div class="sq-list-header">
+								<h3>Kruggsmash</h3>
+								<h4><a href="https://kruggsmash.com/" target="_blank">kruggsmash.com</a></h4>
+							</div>
+							<div class="sq-list-content">
+								<p>This website was donated to Kruggsmash. He's one of my favorite YouTubers and makes excellent Dwarf Fortress videos.</p>
+								<p><em>Built and designed by Radley, for Adam (Kruggsmash).</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -549,7 +562,7 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p><em>Built for <a href="https://alchemyandaim.com/" target="_blank">Alchemy + Aim</a>, designed by
-									<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</em></p>
+										<a href="https://rachelpesso.com/" target="_blank">Rachel Pesso</a>.</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -634,66 +647,102 @@ function return_base64_url( $image ) {
 				</div>
 			</div>
 			
+			<?php
+$websites = <<<TEXT
+24/7 Guide &amp; Outfitter
+Abrahao Jiu-Jitsu
+Action Rent-All
+American Home &amp; Stone
+American Horrors
+Arma Coating
+AutoArt
+Cascade Title
+CPY Lane
+Dyscover.me
+Eugene Dining
+Eugene Tax Service
+Feel Great Live Healthy
+Festival of Eugene
+Gibson Homes
+Gibson Roofing
+Harrang Law (HLGR)
+HG Schlicker &amp; Associates
+Indie Game Con
+Intox-Detox
+Jessica Bonin
+Joe's Truck &amp; Trailer Supply
+KEZI/KDRV News
+Maya Rose Cosmetics
+McKenzie Brewing
+Natural Flea Control
+NEDCO
+New Horizons
+N-Touch Band
+NW Acre Homes
+NW RV Supply
+NW Speech
+Oregon Music Festival
+Overdrive Sales Solutions
+Pacific Armory
+Pacific Rubber
+Philadelphians Tours
+PhoenixNW
+Pro Contracting
+Relationship Styles
+Rustic Lighting and Fans
+Scout26
+Sea-Tac Lighting
+SPOT Spay and Neuter
+Steelhead Brewery
+Stone River Publishing
+Tailored Taps
+The Growler Underground
+Virginia Concealed
+Women Cantors' Network
+Zack Poelwijk
+Homer Insurance
+Mary Lou Hales School of Dance
+Seivah Life Beyond Memory
+Brieant Youth Alliance
+Estate Inspection Group
+Old Post PT
+Ready To Empower
+Shirt Prop
+See Your Way Clear
+Jewish Heart and Soul
+NY Center For Recovery
+F.P.C. Ossining
+Terra Tech
+TEXT;
+
+			// make array
+			$websites = explode("\n", $websites);
+			
+			// remove empty
+			$websites = array_filter( $websites );
+			
+			// sort
+			natsort($websites);
+			
+			if ( $websites ) {
+			?>
 			<div class="extended-websites primary-section">
-				<h3 class="section-title">Even more websites</h3>
+				<h3 class="section-title">And <?php echo count($websites); ?> Other Websites</h3>
 				<div class="content">
 					
 					<ul class="ext-website-list">
-						<li>24/7 Guide &amp; Outfitter</li>
-						<li>Abrahao Jiu-Jitsu</li>
-						<li>Action Rent-All</li>
-						<li>American Home &amp; Stone</li>
-						<li>American Horrors</li>
-						<li>Arma Coating</li>
-						<li>AutoArt</li>
-						<li>Cascade Title</li>
-						<li>CPY Lane</li>
-						<li>Dyscover.me</li>
-						<li>Eugene Dining</li>
-						<li>Eugene Tax Service</li>
-						<li>Feel Great Live Healthy</li>
-						<li>Festival of Eugene</li>
-						<li>Gibson Homes</li>
-						<li>Gibson Roofing</li>
-						<li>Harrang Law (HLGR)</li>
-						<li>HG Schlicker &amp; Associates</li>
-						<li>Indie Game Con</li>
-						<li>Intox-Detox</li>
-						<li>Jessica Bonin</li>
-						<li>Joe's Truck &amp; Trailer Supply</li>
-						<li>KEZI/KDRV News</li>
-						<li>Maya Rose Cosmetics</li>
-						<li>McKenzie Brewing</li>
-						<li>Natural Flea Control</li>
-						<li>NEDCO</li>
-						<li>New Horizons</li>
-						<li>N-Touch Band</li>
-						<li>NW Acre Homes</li>
-						<li>NW RV Supply</li>
-						<li>NW Speech</li>
-						<li>Oregon Music Festival</li>
-						<li>Overdrive Sales Solutions</li>
-						<li>Pacific Armory</li>
-						<li>Pacific Rubber</li>
-						<li>Philadelphians Tours</li>
-						<li>PhoenixNW</li>
-						<li>Pro Contracting</li>
-						<li>Relationship Styles</li>
-						<li>Rustic Lighting and Fans</li>
-						<li>Scout26</li>
-						<li>Sea-Tac Lighting</li>
-						<li>SPOT Spay and Neuter</li>
-						<li>Steelhead Brewery</li>
-						<li>Stone River Publishing</li>
-						<li>Tailored Taps</li>
-						<li>The Growler Underground</li>
-						<li>Virginia Concealed</li>
-						<li>Women Cantors' Network</li>
-						<li>Zack Poelwijk</li>
+						<?php
+						foreach( $websites as $name ) {
+							echo '<li>', $name, '</li>';
+						}
+						?>
 					</ul>
 				
 				</div>
 			</div>
+			<?php
+			}
+			?>
 		
 		</div>
 	
