@@ -494,7 +494,7 @@ function return_base64_url( $image ) {
 							<div class="sq-list-header">
 								<div class="date">Feb 2016</div>
 								<h3>Noindex Pages</h3>
-								<h4><a href="https://wordpress.org/images/plugins/noindex-pages/" target="_blank">wordpress.org/images/plugins/noindex-pages</a></h4>
+								<h4><a href="https://wordpress.org/plugins/noindex-pages/" target="_blank">wordpress.org/plugins/noindex-pages</a></h4>
 								<div class="stars">
 									<a href="https://wordpress.org/support/plugin/noindex-pages/reviews/" target="_blank" title="Read all reviews"><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span></a>
 								</div>
@@ -528,7 +528,7 @@ function return_base64_url( $image ) {
 							
 							<div class="sq-list-content">
 								<p>This extension for
-									<a href="https://wordpress.org/images/plugins/wordpress-popular-posts/" target="_blank">WordPress Popular Posts</a> displays three tabs, for Daily,
+									<a href="https://wordpress.org/plugins/wordpress-popular-posts/" target="_blank">WordPress Popular Posts</a> displays three tabs, for Daily,
 								   Weekly and All Time statistics.</p>
 							</div>
 						</div>
