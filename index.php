@@ -106,7 +106,7 @@ function return_base64_url( $image ) {
 						<li>IT/Tech Support <span class="duration">7 Years</span></li>
 						<li>Team Leader <span class="duration">4 Years</span></li>
 						<li>Project Management <span class="duration">3 Years</span></li>
-						<li>Illustrator <span class="duration">2 Years</span></li>
+						<li>Illustrator <span class="duration">3 Years</span></li>
 					</ul>
 				</div>
 			
