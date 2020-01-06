@@ -133,13 +133,18 @@ function return_base64_url( $image ) {
 				<h3 class="section-title">Introduction</h3>
 				
 				<div class="content">
-					<p>Hey there, I'm Radley! I'm currently building custom WordPress websites and solving
-					   technical support tickets for <a href="https://alchemyandaim.com/" target="_blank" rel="external">Alchemy + Aim</a>. I have more than 12 years of experience
-					   with web development and specialize exclusively with WordPress. I also own a business
-					   named <a href="https://zingmap.com/" target="_blank" rel="external">ZingMap</a> where I provide managed WordPress hosting, development and maintenance
-					   services.</p>
+					<p>I'm a freelance WordPress developer/programmer who builds custom themes and plugins for businesses large and small. I own
+						the business <a href="https://zingmap.com/" target="_blank" rel="external">ZingMap</a> where I provide managed WordPress hosting, development, and
+						maintenance.</p>
 					
-					<p>If you want to discuss a project or opportunity with me, <a href="mailto:radleygh@gmail.com">send me an email</a>. Thank you!</p>
+					<p>My clients are typically looking for a custom solution when no other plugin or theme works for them. It may be a design that needs to be built into a
+						functional website. Or a customization like making a WooCommerce store send an email with attached spreadsheet to distributors for sales of
+						their products every night.</p>
+					
+					<p>If you want to discuss a project or opportunity with me, send me an email at <a href="mailto:radleygh@gmail.com" target="_blank">radleygh@gmail.com</a>.</p>
+					
+					<p>Thanks,
+						<br>Radley</p>
 				</div>
 			</div>
 			
