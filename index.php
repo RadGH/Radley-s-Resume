@@ -548,6 +548,18 @@ function return_base64_url( $image ) {
 				<div class="content">
 					<div class="sq-numeric-list">
 						<div class="sq-list-item">
+							<div class="sq-list-header">
+								<div class="sq-list-website-thumb">
+									<a href="images/websites/concealed-nation-2.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/concealed-nation-2.png' ); ?>" alt="Screen capture of ConcealedNation.org"></a>
+								</div>
+								<h3>Concealed Nation</h3>
+								<h4><a href="https://concealednation.org/" target="_blank">concealednation.org</a></h4>
+							</div>
+							<div class="sq-list-content">
+								<p>Complete website rebuild optimized for thousands of concurrent visitors. Consolidated dozens of plugins into a small list of essentials.</p>
+							</div>
+						</div>
+						<div class="sq-list-item">
 							<div class="sq-list-website-thumb">
 								<a href="images/websites/src/peg-rodrigues.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/peg-rodrigues.png' ); ?>" alt="Screen capture of PegRodrigues.com"></a>
 							</div>
@@ -622,19 +634,6 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p>International brand of hunting bows. Custom bow sorting and comparison utility. Store locator with API.</p>
-								<p><em>Built for Limelight Department</em></p>
-							</div>
-						</div>
-						<div class="sq-list-item">
-							<div class="sq-list-header">
-								<div class="sq-list-website-thumb">
-									<a href="images/websites/concealed-nation.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/concealed-nation.png' ); ?>" alt="Screen capture of ConcealedNation.org"></a>
-								</div>
-								<h3>Concealed Nation</h3>
-								<h4><a href="https://concealednation.org/" target="_blank">concealednation.org</a></h4>
-							</div>
-							<div class="sq-list-content">
-								<p>Complete custom rebuild. Built a custom ad placement plugin with desktop/mobile variants.</p>
 								<p><em>Built for Limelight Department</em></p>
 							</div>
 						</div>
