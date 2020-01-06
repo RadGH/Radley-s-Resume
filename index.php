@@ -10,7 +10,7 @@ function return_base64_url( $image ) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Resume &ndash; Radley Sustaire, WordPress Developer</title>
+	<title>Résumé &ndash; Radley Sustaire, WordPress Developer</title>
 	
 	<?php if ( isset( $_REQUEST['rad'] ) ) { ?>
 		<link rel="stylesheet" href="style.css">
@@ -29,8 +29,8 @@ function return_base64_url( $image ) {
 	
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Radley Sustaire's Resume" />
-	<meta property="og:description" content="A resume for Radley's experiences as a WordPress developer." />
+	<meta property="og:title" content="Radley Sustaire's Résumé" />
+	<meta property="og:description" content="A résumé for Radley's experiences as a WordPress developer." />
 	<meta property="og:url" content="https://radleysustaire.com/resume/" />
 	<meta property="og:site_name" content="Radley Sustaire" />
 	<meta property="article:publisher" content="https://www.facebook.com/radgh" />
@@ -45,7 +45,7 @@ function return_base64_url( $image ) {
 		<div class="primary">
 			
 			<div class="name">
-				<h1>Resume &ndash; Radley Sustaire
+				<h1>Résumé &ndash; Radley Sustaire
 					<small>WordPress Developer</small>
 				</h1>
 			</div>
@@ -766,7 +766,7 @@ TEXT;
 	
 	<div class="footer">
 		
-		<p>This resume was created by Radley Sustaire and is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.
+		<p>This résumé was created by Radley Sustaire and is licensed under <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.
 			<br>The source code is available on Github at <a href="https://github.com/RadGH/Radley-s-Resume" target="_blank">github.com/RadGH/Radley-s-Resume</a>.</p>
 	
 	</div>
