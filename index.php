@@ -84,12 +84,13 @@ function return_base64_url( $image ) {
 				
 				<div class="content">
 					<ul class="skill-list">
-						<li>HTML/CSS <span class="duration">12 Years</span></li>
-						<li>PHP <span class="duration">11 Years</span></li>
-						<li>MySQL <span class="duration">11 Years</span></li>
-						<li>JavaScript <span class="duration">9 Years</span></li>
-						<li>WordPress <span class="duration">7 Years</span></li>
-						<li>Git <span class="duration">5 Years</span></li>
+						<li>HTML/CSS <span class="duration">13 Years</span></li>
+						<li>PHP <span class="duration">12 Years</span></li>
+						<li>MySQL <span class="duration">12 Years</span></li>
+						<li>JavaScript/jQuery <span class="duration">10 Years</span></li>
+						<li>WordPress <span class="duration">8 Years</span></li>
+						<li>Git <span class="duration">6 Years</span></li>
+						<li>Sass/SCSS <span class="duration">3 Years</span></li>
 					</ul>
 				</div>
 			
@@ -101,8 +102,8 @@ function return_base64_url( $image ) {
 				
 				<div class="content">
 					<ul class="skill-list">
-						<li>Photoshop <span class="duration">8 Years</span></li>
-						<li>IT/Tech Support <span class="duration">6 Years</span></li>
+						<li>Photoshop <span class="duration">9 Years</span></li>
+						<li>IT/Tech Support <span class="duration">7 Years</span></li>
 						<li>Team Leader <span class="duration">4 Years</span></li>
 						<li>Project Management <span class="duration">3 Years</span></li>
 						<li>Illustrator <span class="duration">2 Years</span></li>
