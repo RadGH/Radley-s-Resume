@@ -497,21 +497,6 @@ function return_base64_url( $image ) {
 						
 						<div class="sq-list-item">
 							<div class="sq-list-header">
-								<div class="date">Feb 2016</div>
-								<h3>Noindex Pages</h3>
-								<h4><a href="https://wordpress.org/plugins/noindex-pages/" target="_blank">wordpress.org/plugins/noindex-pages</a></h4>
-								<div class="stars">
-									<a href="https://wordpress.org/support/plugin/noindex-pages/reviews/" target="_blank" title="Read all reviews"><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span></a>
-								</div>
-							</div>
-							
-							<div class="sq-list-content">
-								<p>This plugin is available on the WordPress plugin directory. It offers a simple checkbox to mark pages as "Hidden from search engines".</p>
-							</div>
-						</div>
-						
-						<div class="sq-list-item">
-							<div class="sq-list-header">
 								<div class="date">Feb 2015</div>
 								<h3>ACF Avatar</h3>
 								<h4><a href="https://github.com/RadGH/ACF-Avatar" target="_blank">github.com/RadGH/ACF-Avatar</a></h4>
