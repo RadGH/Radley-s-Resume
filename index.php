@@ -607,7 +607,7 @@ function return_base64_url( $image ) {
 						</div>
 						<div class="sq-list-item">
 							<div class="sq-list-website-thumb">
-								<a href="images/websites/src/kruggsmash.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/kruggsmash.png' ); ?>" alt="Screen capture of Kruggsmash.com"></a>
+								<a href="images/websites/src/kruggsmash-2.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/kruggsmash-2.png' ); ?>" alt="Screen capture of Kruggsmash.com"></a>
 							</div>
 							<div class="sq-list-header">
 								<h3>Kruggsmash</h3>
