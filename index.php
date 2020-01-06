@@ -73,7 +73,7 @@ function return_base64_url( $image ) {
 							<a href="https://www.linkedin.com/in/radley-sustaire" target="_blank">linkedin.com/in/radley-sustaire</a></li>
 						<li class="github"><span class="prefix">Github</span> <a href="https://github.com/RadGH/" target="_blank">github.com/RadGH</a></li>
 						<li class="location"><span class="prefix">Location</span>
-							<a href="https://www.google.com/maps/place/Corvallis,+OR/@44.562951,-123.3535763,12z" target="_blank">Corvallis, OR</a></li>
+							<a href="https://www.google.com/maps/place/Bend,+OR" target="_blank">Bend, OR</a></li>
 					</ul>
 				</div>
 			</div>
