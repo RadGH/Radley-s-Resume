@@ -51,7 +51,7 @@ h3, h4, h5, h6 {
 }
 
 .site {
-	max-width: 8.5in;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 
@@ -166,6 +166,17 @@ h3.section-title {
 .sq-list-content ul li {
 	display: list-item;
 	list-style: disc;
+}
+
+.sq-list-image {
+	background: #f9f9f9;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #eee;
+}
+
+.sq-list-image img {
+	border: 1px solid #eee;
 }
 
 /* Employment list numbering */
@@ -338,6 +349,10 @@ ul.skill-list .duration {
 /* Responsive Design */
 @media print {
 	/* print mode */
+	.site {
+		width: 8.5in;
+	}
+
 	.header {
 		display: flex;
 		flex-flow: row wrap;
