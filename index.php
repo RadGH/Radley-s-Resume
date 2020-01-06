@@ -590,6 +590,7 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p>Complete website rebuild optimized for thousands of concurrent visitors. Consolidated dozens of plugins into a small list of essentials.</p>
+								<p><em>Designed and built by Radley.</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
@@ -615,7 +616,7 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p>This website was donated to Kruggsmash. He's one of my favorite YouTubers and makes excellent Dwarf Fortress videos.</p>
-								<p><em>Built and designed by Radley, for Adam (Kruggsmash).</em></p>
+								<p><em>Designed and built by Radley.</em></p>
 							</div>
 						</div>
 						<div class="sq-list-item">
