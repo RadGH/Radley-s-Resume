@@ -68,7 +68,7 @@ function return_base64_url( $image ) {
 						<li class="tel"><span class="prefix">Phone</span> <a href="tel:+15415138145" target="_blank">+1 (541) 513-8145</a></li>
 						<li class="email"><span class="prefix">Email</span> <a href="mailto:radleygh@gmail.com" target="_blank">radleygh@gmail.com</a></li>
 						<li class="skype"><span class="prefix">Skype</span> <span class="skype-name">radleygh</span></li>
-						<li class="website"><span class="prefix">Website</span> <a href="https://radleysustaire.com/" target="_blank">radleysustaire.com</a></li>
+						<li class="website"><span class="prefix">Website</span> <a href="https://radleysustaire.com/">radleysustaire.com</a></li>
 						<li class="linkedin"><span class="prefix">LinkedIn</span>
 							<a href="https://www.linkedin.com/in/radley-sustaire" target="_blank">linkedin.com/in/radley-sustaire</a></li>
 						<li class="github"><span class="prefix">Github</span> <a href="https://github.com/RadGH/" target="_blank">github.com/RadGH</a></li>
@@ -591,6 +591,18 @@ function return_base64_url( $image ) {
 							</div>
 							<div class="sq-list-content">
 								<p>Complete website rebuild optimized for thousands of concurrent visitors. Consolidated dozens of plugins into a small list of essentials.</p>
+								<p><em>Designed and built by Radley.</em></p>
+							</div>
+						</div>
+						<div class="sq-list-item">
+							<div class="sq-list-website-thumb">
+								<a href="images/websites/src/zingmap.png" target="_blank" title="View Full Image"><img src="<?php echo return_base64_url( 'images/websites/zingmap.png' ); ?>" alt="Screen capture of ZingMap.com"></a>
+							</div>
+							<div class="sq-list-header">
+								<h3>ZingMap</h3>
+								<h4><a href="https://zingmap.com/" target="_blank">zingmap.com</a></h4>
+							</div>
+							<div class="sq-list-content">
 								<p><em>Designed and built by Radley.</em></p>
 							</div>
 						</div>
